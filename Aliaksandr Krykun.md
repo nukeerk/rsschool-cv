@@ -15,15 +15,18 @@
 
 #### About Me
 
+I like digital graphics. I especially love working with colors and shades. I want to become a UX designer.
+
 ------
 
 #### Skills
 
+- Markdown
+- Git
+
 ------
 
 #### Code Example
-
-------
 
 **Instructions:** Implement a function which convert the given boolean value into its string representation.
 
@@ -37,10 +40,20 @@ function booleanToString(b){
 }
 ````
 
-
+------
 
 #### Experience
 
+**Project:** https://github.com/nukeerk/rsschool-cv
+
+------
+
 #### Education
 
+**University:** Belarusian State Aviation Academy, Operation of computer equipment
+
+------
+
 #### English
+
+**A1**(I have no spoken English practice)
