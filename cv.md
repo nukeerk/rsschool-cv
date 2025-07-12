@@ -44,7 +44,7 @@ function booleanToString(b){
 
 #### Experience
 
-**Project:** https://nukeerk/github.io/rsschool-cv/cv
+**Project:** https://nukeerk.github.io/rsschool-cv/cv
 
 ------
 
