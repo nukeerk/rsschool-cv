@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+</head>
+<body>
+<header class = "header">
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#about me" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code example" class="nav-link">Code example</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class = "main">
+    <div class="container">
+        <section class="section">
+            <h1 class="section-title">Aliaksandr Krykun</h1>
+            <img src="assets/img/photo.png" alt="photo Aliaksandr Krykun"/>
+        </section>
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="contact-list">
+                <li>Location: Minsk, Belarus</li>
+                <li>Phone: +375 29 126-00-60</li>
+                <li>Email: kreekun@tut.by</li>
+                <li>Discor: kreekun</li>
+            </ul>
+        </section>
+        <section class="section" id="about me">
+            <h2 class="section-title">About me</h2>
+            <p>I like digital graphics. I especially love working with colors and shades. I want to become a UX designer. But first I want to learn HTML,CSS and JS.</p>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skill-list">
+                <li>Markdown</li>
+                <li>Git</li>
+            </ul>
+        </section>
+        <section class="section" id="code example">
+            <h2 class="section-title">Code example</h2>
+            <h3>Instructions:</h3>
+            <p>Implement a function which convert the given boolean value into its string representation.</p>
+            <h3>javascript</h3>
+            <pre>
+            function booleanToString(b){
+            if (typeof b !== 'boolean') {
+            throw new Error('The parameter must be of type boolean');
+            }
+
+            return b ? 'true' : 'false';
+            }
+            </pre>
+        </section>
+        <section class="section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <h3>Project:</h3>
+            <a href="https://nukeerk.github.io/rsschool-cv/cv">CV#1. Markdown</a>
+        </section>
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <h3>University:</h3>
+            <p>Belarusian State Aviation Academy, Operation of computer equipment</p>
+        </section>
+        <section class="section" id="english">
+            <h2 class="section-title">English</h2>
+            <p><span>A1</span>(I have no spoken English practice)</p>
+        </section>
+    </div>
+</main>
+<footer class = "footer">
+    <div class="container">
+        <a href="https://github.com/nukeerk">
+            <img src="./assets/svg/github.svg" width="32" height="32" alt="GitHub">
+        </a>
+        <p>© 2025 by Aliaksandr Krykun</p>
+        <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank">
+            <img src="./assets/svg/rs_school_js.svg" width="86" height="32" alt="RS School">
+        </a>
+    </div>
+</footer>
+</body>
+</html>
