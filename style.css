@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+.header {
+    border: 1px solid red;
+}
+
+.main{
+    border: 1px solid blue;
+}
+.footer{
+    border: 1px solid green;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
